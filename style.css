@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+}
+
+.product-item {
+    margin-bottom: 2rem;
+}
+
+.card {
+    max-width: 320px; 
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+.rating-stars {
+    color: orange;
+}
+.footer-items ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #bdbdbd;
+}
+
+.footer-items h6 {
+    color: white;
+    margin-bottom: 1rem;
+}
+.remove-item {
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.remove-item:hover {
+    color: red !important;
+    transform: scale(1.2);
+}
+.cart-item {
+    border-radius: 8px;
+    background: #fff;
+}
